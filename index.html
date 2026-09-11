@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio website showcasing my skills, projects, and experience.">
+
+    <title>Alex Morgan | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Alex<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode">
+                    <span id="themeIcon">☾</span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+
+            <div class="hero-background">
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+            </div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        Welcome to my portfolio
+                    </p>
+
+                    <h1>
+                        Hi, I'm <span>Alex Morgan</span>
+                    </h1>
+
+                    <h2>
+                        Front-End Developer & UI Designer
+                    </h2>
+
+                    <p class="hero-description">
+                        I create modern, responsive, and user-friendly websites
+                        with clean code and thoughtful design.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work →
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="#" title="GitHub" aria-label="GitHub">
+                            GH
+                        </a>
+
+                        <a href="#" title="LinkedIn" aria-label="LinkedIn">
+                            in
+                        </a>
+
+                        <a href="#" title="Email" aria-label="Email">
+                            @
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="profile-card">
+
+                        <div class="profile-circle">
+                            AM
+                        </div>
+
+                        <h3>Available for work</h3>
+
+                        <p>
+                            Building digital experiences that make an impact.
+                        </p>
+
+                        <div class="status">
+                            <span></span>
+                            Open to opportunities
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">About Me</p>
+                    <h2>Turning ideas into digital experiences</h2>
+                    <p>
+                        A little more about who I am and what I do.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            I'm a passionate front-end developer who enjoys
+                            transforming ideas into beautiful and functional
+                            websites.
+                        </p>
+
+                        <p>
+                            My approach combines clean, maintainable code with
+                            thoughtful user experience. I enjoy learning new
+                            technologies and continuously improving my skills.
+                        </p>
+
+                        <div class="about-stats">
+
+                            <div class="stat">
+                                <strong>10+</strong>
+                                <span>Projects</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>3+</strong>
+                                <span>Years Learning</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>100%</strong>
+                                <span>Passion</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-card">
+
+                        <div class="code-window">
+
+                            <div class="window-header">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="code-content">
+                                <p><span class="purple">const</span> developer = {</p>
+                                <p class="indent">
+                                    name: <span class="green">"Alex Morgan"</span>,
+                                </p>
+                                <p class="indent">
+                                    role: <span class="green">"Front-End Developer"</span>,
+                                </p>
+                                <p class="indent">
+                                    passion: <span class="green">"Web Design"</span>,
+                                </p>
+                                <p class="indent">
+                                    learning: <span class="green">true</span>
+                                </p>
+                                <p>};</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section section-alt" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">My Skills</p>
+                    <h2>Technologies I work with</h2>
+                    <p>
+                        Tools and technologies I use to build websites.
+                    </p>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon html-icon">&lt;/&gt;</div>
+                        <h3>HTML5</h3>
+                        <p>Semantic and accessible web structure.</p>
+                        <div class="skill-bar">
+                            <span style="width: 95%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon css-icon">#</div>
+                        <h3>CSS3</h3>
+                        <p>Modern layouts, animations and responsive design.</p>
+                        <div class="skill-bar">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon js-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web experiences.</p>
+                        <div class="skill-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon ui-icon">UI</div>
+                        <h3>UI Design</h3>
+                        <p>Clean, intuitive and user-focused interfaces.</p>
+                        <div class="skill-bar">
+                            <span style="width: 88%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">My Work</p>
+                    <h2>Featured Projects</h2>
+                    <p>
+                        A selection of projects I've created.
+                    </p>
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <div class="project-image project-one">
+                            <span>01</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>Modern Landing Page</h3>
+
+                            <p>
+                                A responsive landing page designed with a
+                                modern visual style and interactive elements.
+                            </p>
+
+                            <button
+                                class="project-btn"
+                                data-title="Modern Landing Page"
+                                data-description="A fully responsive landing page featuring modern layouts, animated elements, responsive navigation, and carefully designed user interactions."
+                                data-tech="HTML5, CSS3, JavaScript"
+                            >
+                                View Details →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+
+                        <div class="project-image project-two">
+                            <span>02</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>UI/UX</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <h3>Dashboard Interface</h3>
+
+                            <p>
+                                A clean dashboard interface focused on
+                                usability, organization, and visual hierarchy.
+                            </p>
+
+                            <button
+                                class="project-btn"
+                                data-title="Dashboard Interface"
+                                data-description="A professional dashboard concept featuring responsive cards, statistics, navigation, and a clean visual hierarchy."
+                                data-tech="HTML5, CSS3, Responsive Design"
+                            >
+                                View Details →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+
+                        <div class="project-image project-three">
+                            <span>03</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>UI</span>
+                            </div>
+
+                            <h3>Interactive Web App</h3>
+
+                            <p>
+                                An interactive web application demonstrating
+                                JavaScript-based user interactions.
+                            </p>
+
+                            <button
+                                class="project-btn"
+                                data-title="Interactive Web App"
+                                data-description="An interactive web application designed to demonstrate JavaScript functionality, dynamic content, buttons, and user interactions."
+                                data-tech="JavaScript, HTML5, CSS3"
+                            >
+                                View Details →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-text">
+
+                        <p class="section-label">Get In Touch</p>
+
+                        <h2>Let's create something great together.</h2>
+
+                        <p>
+                            Have a project idea or simply want to say hello?
+                            Feel free to reach out.
+                        </p>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                rows="5"
+                                placeholder="Your message..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message →
+                        </button>
+
+                        <p class="form-message" id="formMessage"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Alex Morgan. All rights reserved.
+            </p>
+
+            <p>
+                Designed & developed with passion.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= PROJECT MODAL ================= -->
+    <div class="modal" id="projectModal">
+
+        <div class="modal-overlay" id="modalOverlay"></div>
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose" aria-label="Close modal">
+                ×
+            </button>
+
+            <p class="section-label">Project Details</p>
+
+            <h2 id="modalTitle">Project Title</h2>
+
+            <p id="modalDescription"></p>
+
+            <div class="modal-tech">
+                <strong>Technologies:</strong>
+                <span id="modalTech"></span>
+            </div>
+
+            <button class="btn btn-primary" id="modalDone">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" title="Back to top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
